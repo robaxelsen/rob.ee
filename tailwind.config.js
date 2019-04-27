@@ -1,5 +1,10 @@
 module.exports = {
   theme: {
+    extend: {
+      borderWidth: {
+        '14': '14px'
+      }
+    },
     colors: {
       transparent: 'transparent',
 
