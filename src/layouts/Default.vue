@@ -3,7 +3,11 @@
     <header class="border-t-14 border-blue">
         <!--<g-link to="/">{{ $static.metaData.siteName }}</g-link>-->
       <nav class="container mx-auto flex justify-between items-center py-8">
-        <a href="/"><img src="../../static/logo.png" :alt="$static.metaData.siteName + ' logo'"></a>
+        <a href="/">
+          <div class="text-5xl text-blue font-bold w-3/5">
+            @robaxelsen
+          </div>
+        </a>
         <ul class="uppercase tracking-wide font-bold flex items-center">
            <li class="mr-8"><g-link class="nav__link text-gray-800 hover:text-gray-600" to="/">Home</g-link></li>
            <li class="mr-8"><g-link class="nav__link text-gray-800 hover:text-gray-600" to="/about">About</g-link></li>

@@ -1,20 +1,20 @@
 <template>
   <Layout>
-    
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-    
-    <h1>Hello, world!</h1>
-   
-    <p class="text-white bg-blue-500">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
-
+    <div class="creator container-inner mx-auto flex justify-between py-16">
+      <div class="text-4xl font-bold w-3/5">
+        <div>
+          I'm all about Code
+          <br />
+          Web & Community...
+        </div>
+        <div class="text-green">
+          A pleasure to meet you!
+        </div>
+      </div>
+      <div>
+        <g-image alt="Creator standing by wall with painting" src="../../static/programmer.svg" width="285" />
+      </div>
+    </div>
   </Layout>
 </template>
 
