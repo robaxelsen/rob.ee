@@ -15,6 +15,9 @@
         <g-image alt="Creator standing by wall with painting" src="../../static/programmer.svg" width="285" />
       </div>
     </div>
+    <div class="container-inner mx-auto">
+      Hello world! I am Robert, a software developer at <a href="https://www.sipwise.com/">Sipwise GmbH</a>, meetup organizer, founder of <a href="http://www.developersrising.com/">Developers Rising</a>, speaker and creator with a passion for sharing my love of code with other people. Oh, and I love learning. The meetups I organize are called <a href="https://www.meetup.com/Free-Code-Camp-Vienna/">Free Code Camp Vienna (Austria)</a>, <a href="https://www.meetup.com/Vue-js-Vienna/">Vue.js Vienna</a> and <a href="https://www.meetup.com/vienna-go-Vienna-Go-User-Group/">vienna.go – Vienna Go User Group</a> . All are monthly meetups where everyone is free to join, no matter experience level. I am always open to connect, hear about opportunities, and learn how to help people even more. Please connect with me below. Until then, ROCK ON!
+    </div>
   </Layout>
 </template>
 
