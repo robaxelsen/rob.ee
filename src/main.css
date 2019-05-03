@@ -29,6 +29,10 @@
   @apply pl-10;
 }
 
+.creator .g-image {
+  border-radius: 5px;
+}
+
 @tailwind components;
 
 @tailwind utilities;
