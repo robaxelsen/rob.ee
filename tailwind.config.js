@@ -2,17 +2,29 @@ module.exports = {
   theme: {
     extend: {
       borderWidth: {
-        '14': '14px'
+        '14': '14px',
       }
+    },
+    container: {
+      padding: '1rem'
     },
     colors: {
       transparent: 'transparent',
 
       black: '#000',
       white: '#fff',
-      blue: '#196fc1',
-      'blue-dark': '#125696',
-      green: '#5CD388',
+
+      green: {
+        100: '#f0fff4',
+        200: '#c6f6d5',
+        300: '#9ae6b4',
+        400: '#68d391',
+        500: '#48bb78',
+        600: '#38a169',
+        700: '#2f855a',
+        800: '#276749',
+        900: '#22543d',
+      },
 
       gray: {
         100: '#f7fafc',
@@ -28,6 +40,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Nunito Sans',
         'Roboto',
         '-apple-system',
         'BlinkMacSystemFont',
@@ -39,7 +52,7 @@ module.exports = {
         '"Apple Color Emoji"',
         '"Segoe UI Emoji"',
         '"Segoe UI Symbol"',
-        '"Noto Color Emoji"'
+        '"Noto Color Emoji"',
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
@@ -48,9 +61,9 @@ module.exports = {
         'Consolas',
         '"Liberation Mono"',
         '"Courier New"',
-        'monospace'
-      ]
-    }
+        'monospace',
+      ],
+    },
   },
   variants: {
     // Some useful comment
